@@ -17,8 +17,10 @@ const Main = () => {
     <>
       <div className="wrapper">
         <div className="container box-container">
-          <h1>
-            This is a box
+          <h1 className='text-white line-height-2 text-1'>
+            Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist. Be curious. 
+            <br />
+            -Stephen Hawking
           </h1>
           <Canvas className="box-canvas">
             <OrbitControls enableZoom={false} />
@@ -29,7 +31,7 @@ const Main = () => {
             </Suspense>
           </Canvas>
         </div>
-        <div className="sphere-container">
+        <div className="container sphere-container">
           <Canvas className="sphere-canvas">
             <OrbitControls enableZoom={false} />
             <ambientLight intensity={0.5} />
@@ -38,6 +40,9 @@ const Main = () => {
               <AnimatedSphere />
             </Suspense>
           </Canvas>
+          <h1 className='text-white line-height-2 text-2'>
+            Everything turns, rotates, spins, circles, loops, pulsates, resonates, and repeats. Circles of life, born from pulses of light, vibrate to breathe, while spiraling outwards for infinity through the lens of time... <br />-Suzy Kassem
+          </h1>
         </div>
         <div className="medal-container">
           <Canvas className="medal-canvas">

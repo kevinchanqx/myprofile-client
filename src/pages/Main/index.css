@@ -10,14 +10,34 @@
   align-items: center !important;
 }
 
+.sphere-container {
+  display: flex !important;
+  align-items: center !important;
+}
+
 .box-canvas {
   height: 50vh !important;
+  left: 5vw;
 }
 
 .sphere-canvas {
   height: 50vh !important;
+  width: 200% !important;
+  right: 5vw;
 }
 
 .medal-canvas {
   height: 100vh !important;
+}
+
+.line-height-2 {
+  line-height: 2;
+}
+
+.text-1 {
+  padding-right: 10vw;
+}
+
+.text-2 {
+  padding-left: 10vw;
 }
