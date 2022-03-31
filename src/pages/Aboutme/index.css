@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=PT+Serif&display=swap');
+
+p {
+  font-size: 140%;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.introduction > a {
+  color: black;
+}
+
+.introuction > a:visited {
+  color: black;
+}
+
+.aboutme-page {
+  background-color: lightyellow;
+}
+
+.name {
+  color: black;
+  font-weight: bolder;
+  font-size: 400%;
+  margin-bottom: 20px
+}
+
+.introduction {
+  font-size: 200%;
+}
+
+.aboutme-outer-container {
+  width: 100vw;
+  height: 76vh;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutme-container {
+  width: 75%;
+}
+
+.column1 {
+  font-family: 'PT Serif', serif;
+}
+
+.column2 {
+  height: 95%;
+  border-radius: 10%;
+}

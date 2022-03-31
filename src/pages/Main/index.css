@@ -1,0 +1,23 @@
+.wrapper {
+  background: black;
+  background-image: url('./images/3836435.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.box-container {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.box-canvas {
+  height: 50vh !important;
+}
+
+.sphere-canvas {
+  height: 50vh !important;
+}
+
+.medal-canvas {
+  height: 100vh !important;
+}

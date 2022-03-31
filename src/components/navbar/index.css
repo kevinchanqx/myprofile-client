@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+.custom-nav {
+  font-family: 'Bad Script', cursive;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 7vh;
+  z-index: 1;
+}
+
+.centralize {
+  justify-content: space-around !important;
+}
+
+.nav-shadow {
+  border: 1px solid;
+  box-shadow: 5px 10px #888888;
+}
+
+.nav-menu {
+  font-size: 200%;
+}
+
+.home-icon {
+  position: absolute;
+  left: 30px;
+  font-size: 40px;
+}
+
+.home-icon:hover {
+  text-shadow: 0 0 20px #fff, 0 0 30px #999999, 0 0 40px #999999, 0 0 50px #999999, 0 0 60px #999999, 0 0 70px #999999, 0 0 80px #999999;
+}

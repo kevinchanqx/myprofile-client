@@ -1,0 +1,72 @@
+@import './sass/_function';
+$selectionBackground: #386356;
+
+.selection-font > a:visited {
+  color: white;
+}
+
+.selection-outer-container {
+  @include flexCenter(row);
+  background-color: $selectionBackground;
+  height: 30vh;
+  color: white
+}
+
+.about-me-section {
+  @include flexCenter(row);
+  width: 25%;
+  height: 100%;
+
+  &:hover {
+    @include bounceWordFunc();
+    animation-name: bounceWord;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+  }
+}
+
+.education-section {
+  @include flexCenter(row);
+  width: 25%;
+  height: 100%;
+
+  &:hover {
+    @include spinWordFunc();
+    animation-name: spinWord;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+}
+
+.career-section {
+  @include flexCenter(row);
+  width: 25%;
+  height: 100%;
+
+  &:hover {
+    @include enlargeWordFunc();
+    animation-name: enlargeWord;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+}
+
+.contact-section {
+  @include flexCenter(row);
+  width: 25%;
+  height: 100%;
+
+  &:hover {
+    @include shiningWordFunc();
+    animation-name: shineWord;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+}
+
+.selection-font {
+  font-size: 300%;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+
+.custom-carousel-container {
+  height: 93vh;
+  width: 100vw;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 93vh;
+}
+
+/* Jimmy Section */
+.jimmy-font {
+  font-size: 150%;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900; 
+}
+
+.jimmy-background {
+  background-color: #47373D;
+}
+
+.image-center {
+  margin: auto;
+}
+
+.freedom-font {
+  font-size: 150%;
+  font-family: 'Lobster Two', cursive !important;
+}
+
+.hope-font {
+  font-size: 150% !important;
+  font-family: 'Charm', cursive;
+  color: white !important;
+}
+
+.jimmy-instagram {
+  margin-left: 10px;
+  color: snow
+}

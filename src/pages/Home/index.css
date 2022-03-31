@@ -1,0 +1,34 @@
+.about-me-container {
+  width: 100%;
+  height: 25vh;
+}
+
+.about-me {
+  margin: 0px
+}
+
+.welcome-container {
+  height: 15vh;
+  background-color: #386356;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 1.5cm;
+  border-top-right-radius: 1.5cm;
+  border-bottom-left-radius: 1.5cm;
+  border-bottom-right-radius: 1.5cm;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.welcome {
+  padding-top: 35px;
+  color: white
+}
+
+.rounded {
+  border-radius: 10%;
+}
+
+.lead {
+  font-size: 160%;
+}
