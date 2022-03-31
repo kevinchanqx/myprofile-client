@@ -27,9 +27,15 @@
   margin: auto;
 }
 
-.freedom-font {
-  font-size: 150%;
-  font-family: 'Lobster Two', cursive !important;
+.mechanical-hand-font {
+  font-size: 140%;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900; 
+  padding-right: 29vw;
+}
+
+.mechanical-hand-background {
+  background-color: #e67045;
 }
 
 .hope-font {
